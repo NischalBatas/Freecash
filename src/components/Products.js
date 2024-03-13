@@ -183,12 +183,14 @@ const Products = () => {
             </div>
           </div>
         </div>
-        
       </div>
 
 {/* Premium */}
-<div className="group3_premium bg-[url('/images/dot.png')] bg-no-repeat bg-anova2 my-5 border-2 border-anova3 rounded-lg p-4 overflow-hidden gap-2">
-      <div className="product_main_group3_sub1  flex justify-between mb-3">
+<div className="group3_premium  bg-anova2 my-5 border-2 border-anova3 rounded-lg p-4 overflow-hidden gap-2">
+      <div className="product3_premium_image">
+        <Image width={350} height={350} src='/images/dot.png'/>
+      </div>
+      <div className="product_main_group3_sub1 w-full z-20  flex justify-between mb-3">
           <div className="product_main_group3_innergroup1_sub1">
             <span className="flex gap-2 items-center text-green-400 font-medium text-lg">
               <SiBitcoinsv />
@@ -201,7 +203,7 @@ const Products = () => {
           </div>
         </div>
 
-        <div className="product_main_group3_sub2 owl-carousel owl-theme flex gap-5">
+        <div className="product_main_group3_sub2 z-30 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
             <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
               <Image
@@ -410,7 +412,7 @@ const Products = () => {
         </div>
       </div>
 
-      <div className="product_main_group3 my-5 overflow-hidden gap-2">
+      <div className="product_main_group3 my-5 z-40 overflow-hidden gap-2">
       <div className="product_main_group3_sub1 flex justify-between mb-3">
           <div className="product_main_group3_innergroup1_sub1">
             <span className="flex gap-2 items-center text-anovatext1 font-medium text-lg">

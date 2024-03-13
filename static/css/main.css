@@ -32,7 +32,51 @@
     overflow: hidden;
     text-overflow: ellipsis; 
   }
-
   .group3_premium{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+  .group3_premium::before{
+    content: '';
+    width: 200%;
+    margin-left: -50%;
+    height: 35%;
+    margin-top: 100px;
+    position: absolute;
+    background: linear-gradient(transparent, #1fbe73 60%, transparent);
+    z-index: 0;
+    animation: rotate 6s linear infinite;
     
+  }
+
+  @keyframes rotate{
+    from{
+      transform: rotate(0deg);
+    }to{
+      transform: rotate(360deg);
+    }
+  }
+
+  .group3_premium::after{
+    content: '';
+    position: absolute;
+    background: #111923;
+    inset:2px;
+    border-radius: 0.5rem;
+  }
+
+  .product3_premium_image{
+    position: absolute;
+    width: 350px;
+    transform: rotate(122deg);
+    left: -130px;
+    top: -160px;
+    opacity: .75;
+    z-index:1;
   }
