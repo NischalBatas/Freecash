@@ -3,6 +3,13 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import '@radix-ui/themes/styles.css';
 import { Theme, ThemePanel } from '@radix-ui/themes';
+
+import '../../static/js/resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css'
+import '../../static/js/resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css'
+import '../../static/css/owlCarousel.css'
+
+import Script from "next/script";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -11,6 +18,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+ 
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -19,6 +28,10 @@ export default function RootLayout({ children }) {
         {children}
      
         </Theme>
+        <Script src="../../static/js/resources/jquery.js"></Script>
+        <Script src="../../static/js/owlCarousel.js"></Script>
+        <Script src="../../static/js/resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></Script>
+        
         </body>
     </html>
   );

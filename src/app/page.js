@@ -1,10 +1,22 @@
+import Chat from "@/components/Chat";
+import Product from "@/components/Product";
 import Sidebar from "@/components/Sidebar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-    <Sidebar/>
+    <div className="grid grid-cols-4 gap-10 text-white">
+   <div className="col-span-1 hidden lg:block">
+   <Sidebar />
+   </div>
+   <div className="col-span-4 lg:col-span-2 px-4 py-2 lg:p-0 ">
+   <Product/>
+   </div>
+
+    <div className="col-span-1 hidden lg:block">
+    <Chat/>
+    </div>
+    
     </div>
   );
 }

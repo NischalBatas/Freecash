@@ -10,7 +10,7 @@ import {
   Popover,
 } from "@radix-ui/themes";
 import * as Accordion from '@radix-ui/react-accordion';
-
+import { ChevronDownIcon } from '@radix-ui/react-icons';
 import Image from "next/image";
 import React from "react";
 import "../app/navbar.css";
@@ -22,11 +22,21 @@ import { FaMobileAlt } from "react-icons/fa";
 import { FaWindows } from "react-icons/fa";
 import { RiMacbookLine } from "react-icons/ri";
 import { ImTablet } from "react-icons/im";
+import { FaBars } from "react-icons/fa6";
+import classNames from 'classnames';
+import Sidebar from "./Sidebar";
 const Navbar = () => {
   return (
-    <div className="bg-anovanavbar flex justify-between items-center py-3 px-4">
+    <div className="sticky top-0 z-40 w-full bg-anovanavbar flex justify-between items-center py-3 px-4">
       <div className="navbar_group1 flex gap-4">
         <div className="navbar_group1_subgroup_1 flex items-center gap-2">
+          <FaBars className="text-white" />
+        
+
+ 
+
+
+
           <Image
             className="navbar-logo"
             width={20}
