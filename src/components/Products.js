@@ -12,7 +12,7 @@ import '../../static/css/main.css'
 import { IoIosRocket } from "react-icons/io";
 import { BiSolidJoystick } from "react-icons/bi";
 import { BsJoystick } from "react-icons/bs";
-const Product = () => {
+const Products = () => {
   return (
     <div className="product_main my-1 grid">
       <div className="product_main_group1 mb-2 overflow-hidden flex justify-start gap-2">
@@ -1530,4 +1530,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Products;

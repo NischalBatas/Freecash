@@ -1,5 +1,5 @@
 import Chat from "@/components/Chat";
-import Product from "@/components/Product";
+import Products from "@/components/Products";
 import Sidebar from "@/components/Sidebar";
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ export default function Home() {
    <Sidebar />
    </div>
    <div className="col-span-4 lg:col-span-2 px-4 py-2 lg:p-0 ">
-   <Product/>
+   <Products/>
    </div>
 
     <div className="col-span-1 hidden lg:block">
