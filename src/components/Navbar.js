@@ -109,7 +109,7 @@ const Navbar = () => {
         <div className="signin-group">
           <Dialog.Root>
             <Dialog.Trigger asChild>
-              <Button className="bg-green-500">Sign In</Button>
+              <Button className="bg-green-600">Sign In</Button>
             </Dialog.Trigger>
             <Dialog.Portal>
               <Dialog.Overlay className="DialogOverlay" />
