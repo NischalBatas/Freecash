@@ -9,6 +9,7 @@ export default function Home() {
    <div className="col-span-1 hidden lg:block">
    <Sidebar />
    </div>
+   
    <div className="col-span-4 lg:col-span-2 px-4 py-2 lg:p-0 ">
    <Products/>
    </div>

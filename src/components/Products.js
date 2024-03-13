@@ -128,17 +128,17 @@ const Products = () => {
       </div>
 
       <div className="product_main_group2 my-4 overflow-hidden flex justify-start gap-5">
-        <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4">
+        <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4 pb-2">
           <div className="product_main_group2_item_image">
             <Image
-              className="min-h-52 max-h-52"
+              className=""
               width={350}
               height={100}
               alt="image"
               src="/images/brain.jpg"
             />
           </div>
-          <div className="product_main_group2_item_content flex justify-between items-center px-2 pt-1 pb-2">
+          <div className="product_main_group2_item_content flex flex-col md:flex-row md:justify-between md:items-center px-2  py-1">
             <div className="product_main_group2_item_content_group1">
               <div className="product_main_group2_item_content_group1_title font-semibold">
                 <p>InNepal Tech</p>
@@ -147,7 +147,7 @@ const Products = () => {
                 <p>Monlix</p>
               </div>
             </div>
-            <div className="product_main_group2_item_content_group2">
+            <div className="product_main_group2_item_content_group2 mt-2 md:mt-1">
               <span className="flex flex-nowrap items-center gap-1 font-semibold">
                 <SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8800
@@ -155,17 +155,18 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4">
+        
+        <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4 pb-2">
           <div className="product_main_group2_item_image">
             <Image
-              className="min-h-52 max-h-52"
+              className=""
               width={350}
-              height={350}
+              height={100}
               alt="image"
-              src="/images/course1.jpg"
+              src="/images/brain.jpg"
             />
           </div>
-          <div className="product_main_group2_item_content flex justify-between items-center px-2 pt-1 pb-2">
+          <div className="product_main_group2_item_content flex flex-col md:flex-row md:justify-between md:items-center px-2  py-1">
             <div className="product_main_group2_item_content_group1">
               <div className="product_main_group2_item_content_group1_title font-semibold">
                 <p>InNepal Tech</p>
@@ -174,7 +175,7 @@ const Products = () => {
                 <p>Monlix</p>
               </div>
             </div>
-            <div className="product_main_group2_item_content_group2">
+            <div className="product_main_group2_item_content_group2 mt-2 md:mt-1">
               <span className="flex flex-nowrap items-center gap-1 font-semibold">
                 <SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8800
@@ -182,6 +183,7 @@ const Products = () => {
             </div>
           </div>
         </div>
+        
       </div>
 
 {/* Premium */}
@@ -211,13 +213,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -236,39 +238,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
-              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                8,800
-              </span>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
-            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-            </div>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
-              <p>BitLabs Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-              <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -288,13 +264,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -314,13 +290,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -340,13 +316,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -366,13 +342,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -392,13 +368,39 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
+              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
+                8,800
+              </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
+            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+              <Image
+                className="rounded-lg"
+                width={150}
+                height={150}
+                alt="image"
+                src="/images/dots.jpg"
+              />
+            </div>
+            <div className="product_main_group3_innergroup2_item_content mt-3">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
+              <p>BitLabs Surveys</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
+              <p>CryptoCurrency</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -434,13 +436,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -459,39 +461,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
-              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                8,800
-              </span>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
-            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-            </div>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
-              <p>BitLabs Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-              <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -511,13 +487,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -537,13 +513,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -563,13 +539,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -589,13 +565,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -615,13 +591,39 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
+              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
+                8,800
+              </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
+            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+              <Image
+                className="rounded-lg"
+                width={150}
+                height={150}
+                alt="image"
+                src="/images/dots.jpg"
+              />
+            </div>
+            <div className="product_main_group3_innergroup2_item_content mt-3">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
+              <p>BitLabs Surveys</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
+              <p>CryptoCurrency</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -657,13 +659,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -682,39 +684,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
-              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                8,800
-              </span>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
-            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-            </div>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
-              <p>BitLabs Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-              <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -734,13 +710,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -760,13 +736,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -786,13 +762,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -812,13 +788,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -838,13 +814,39 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
+              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
+                8,800
+              </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
+            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+              <Image
+                className="rounded-lg"
+                width={150}
+                height={150}
+                alt="image"
+                src="/images/dots.jpg"
+              />
+            </div>
+            <div className="product_main_group3_innergroup2_item_content mt-3">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
+              <p>BitLabs Surveys</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
+              <p>CryptoCurrency</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -880,13 +882,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -905,39 +907,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
-              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                8,800
-              </span>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
-            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-            </div>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
-              <p>BitLabs Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-              <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -957,13 +933,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -983,13 +959,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1009,13 +985,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1035,13 +1011,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1061,13 +1037,39 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
+              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
+                8,800
+              </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
+            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+              <Image
+                className="rounded-lg"
+                width={150}
+                height={150}
+                alt="image"
+                src="/images/dots.jpg"
+              />
+            </div>
+            <div className="product_main_group3_innergroup2_item_content mt-3">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
+              <p>BitLabs Surveys</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
+              <p>CryptoCurrency</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1103,13 +1105,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1128,39 +1130,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
-              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                8,800
-              </span>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
-            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-            </div>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
-              <p>BitLabs Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-              <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1180,13 +1156,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1206,13 +1182,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1232,13 +1208,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1258,13 +1234,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1284,13 +1260,39 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
+              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
+                8,800
+              </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
+            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+              <Image
+                className="rounded-lg"
+                width={150}
+                height={150}
+                alt="image"
+                src="/images/dots.jpg"
+              />
+            </div>
+            <div className="product_main_group3_innergroup2_item_content mt-3">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
+              <p>BitLabs Surveys</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
+              <p>CryptoCurrency</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1326,13 +1328,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1351,39 +1353,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
-              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                8,800
-              </span>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
-            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-            </div>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
-              <p>BitLabs Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-              <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1403,13 +1379,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1429,13 +1405,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1455,13 +1431,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1481,13 +1457,13 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>
@@ -1507,13 +1483,39 @@ const Products = () => {
               />
             </div>
             <div className="product_main_group3_innergroup2_item_content mt-3">
-            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-sm">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
               <p>BitLabs Surveys</p>
               </div>
               <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
               <p>CryptoCurrency</p>
               </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2">
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
+              <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
+                8,800
+              </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="product_main_group3_sub2_item bg-anova4 w-32 p-3 flex flex-col rounded-lg">
+            <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+              <Image
+                className="rounded-lg"
+                width={150}
+                height={150}
+                alt="image"
+                src="/images/dots.jpg"
+              />
+            </div>
+            <div className="product_main_group3_innergroup2_item_content mt-3">
+            <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
+              <p>BitLabs Surveys</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
+              <p>CryptoCurrency</p>
+              </div>
+              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
               <span className="flex flex-nowrap items-center gap-1 font-semibold"><SiBitcoinsv className="w-4 h-4 text-yellow-400" />
                 8,800
               </span>

@@ -14,9 +14,6 @@ $(document).ready(function () {
       324: {
         items: 2,
       },
-      480: {
-        items: 3,
-      },
       800: {
         items: 5,
       },
@@ -48,7 +45,7 @@ $(document).ready(function () {
 
   $(".product_main_group3 .owl-carousel").owlCarousel({
     loop: true,
-    margin: 5,
+    margin: 10,
     autoplay: false,
     dots: false,
     nav: false,
@@ -58,7 +55,10 @@ $(document).ready(function () {
         items: 1,
       },
       324: {
-        items: 4,
+        items: 2,
+      },
+      400: {
+        items: 3,
       },
       680: {
         items: 6,
@@ -71,7 +71,7 @@ $(document).ready(function () {
 
   $(".group3_premium .owl-carousel").owlCarousel({
     loop: true,
-    margin: 5,
+    margin: 100,
     autoplay: false,
     dots: false,
     nav: false,
@@ -81,7 +81,10 @@ $(document).ready(function () {
         items: 1,
       },
       324: {
-        items: 4,
+        items: 2,
+      },
+      400: {
+        items: 3,
       },
       680: {
         items: 6,
