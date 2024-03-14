@@ -132,7 +132,7 @@ const Products = () => {
 
       <div className="product_main_group2 my-4 overflow-hidden flex justify-start gap-5">
         <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4 pb-2">
-          <div className="product_main_group2_item_image">
+          <div className="product_main_group3_innergroup2_item_image">
             <Image
               className=""
               width={350}
@@ -140,6 +140,9 @@ const Products = () => {
               alt="image"
               src="/images/brain.jpg"
             />
+             <div className="play-button-icon text-white ">
+              <IoPlay />
+              </div>
           </div>
           <div className="product_main_group2_item_content flex flex-col md:flex-row md:justify-between md:items-center px-2  py-1">
             <div className="product_main_group2_item_content_group1">
@@ -160,7 +163,7 @@ const Products = () => {
         </div>
 
         <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4 pb-2">
-          <div className="product_main_group2_item_image">
+        <div className="product_main_group3_innergroup2_item_image">
             <Image
               className=""
               width={350}
@@ -168,6 +171,9 @@ const Products = () => {
               alt="image"
               src="/images/brain.jpg"
             />
+             <div className="play-button-icon text-white ">
+              <IoPlay />
+              </div>
           </div>
           <div className="product_main_group2_item_content flex flex-col md:flex-row md:justify-between md:items-center px-2  py-1">
             <div className="product_main_group2_item_content_group1">
