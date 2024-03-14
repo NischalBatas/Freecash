@@ -14,7 +14,7 @@ export default function Home() {
    <Products/>
    </div>
 
-    <div className="col-span-1 hidden lg:block">
+    <div className="col-span-1 hidden lg:grid justify-items-end">
     <Chat/>
     </div>
     

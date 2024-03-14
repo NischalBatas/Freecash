@@ -1,0 +1,13 @@
+.TabsTrigger_chat[data-state='active'] {
+
+    border-radius: 50px;
+    /* padding: 0.6rem 0.4rem; */
+    background-color: #253243;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .ScrollArea{
+    height: 78vh;
+  }
+

@@ -60,8 +60,11 @@ $(document).ready(function () {
       400: {
         items: 3,
       },
+      550: {
+        items: 4,
+      },
       680: {
-        items: 6,
+        items: 5,
       },
       1100: {
         items: 7,
@@ -71,7 +74,7 @@ $(document).ready(function () {
 
   $(".group3_premium .owl-carousel").owlCarousel({
     loop: true,
-    margin: 100,
+    margin: 80,
     autoplay: false,
     dots: false,
     nav: false,
@@ -87,9 +90,11 @@ $(document).ready(function () {
         items: 3,
       },
       680: {
-        items: 6,
+        items: 5,
       },
-      
+      1000: {
+        items: 6,
+      }
     },
   });
 
