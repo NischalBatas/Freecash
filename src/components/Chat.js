@@ -37,7 +37,7 @@ const Chat = () => {
 
 
            
-            <Tabs.Content className="bg-anova2 p-2 mt-4" value="general">
+            <Tabs.Content className="Main-conetnts bg-anova2 p-2 mt-4" value="general">
             <ScrollArea className="ScrollArea" type="always" scrollbars="vertical" >
 
 <div className="chat-box-main mb-2">
