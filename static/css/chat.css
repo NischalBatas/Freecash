@@ -6,9 +6,7 @@
     color: #fff;
     overflow: hidden;
   }
-.chat-main{
 
-}
   .ScrollArea{
     position: relative;
     height: 77.6vh; /* Adjust thvhe height as needed, minus the height of the chat-writing-box */
