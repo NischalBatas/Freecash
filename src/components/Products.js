@@ -19,7 +19,7 @@ import Link from "next/link";
 import TableData from "./TableData";
 const Products = () => {
   return (
-    <div className="product_main my-1 grid">
+    <div className="product_main my-1 grid text-white">
       <div className="product_main_group1 mb-2 overflow-hidden flex justify-start gap-2">
         <div className="product_main_group1_sub1 px-3 bg-anovanavbar flex justify-center items-center rounded">
           <span className=" ">
