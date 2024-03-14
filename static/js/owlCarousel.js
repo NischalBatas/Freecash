@@ -54,10 +54,10 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      324: {
+      299: {
         items: 2,
       },
-      400: {
+      360: {
         items: 3,
       },
       550: {
@@ -74,7 +74,7 @@ $(document).ready(function () {
 
   $(".group3_premium .owl-carousel").owlCarousel({
     loop: true,
-    margin: 80,
+    margin: 60,
     autoplay: false,
     dots: false,
     nav: false,
@@ -83,10 +83,10 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      324: {
+      299: {
         items: 2,
       },
-      400: {
+      372: {
         items: 3,
       },
       680: {

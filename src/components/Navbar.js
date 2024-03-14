@@ -9,13 +9,13 @@ import {
   Flex,
   Popover,
 } from "@radix-ui/themes";
-import * as Accordion from '@radix-ui/react-accordion';
-import { ChevronDownIcon } from '@radix-ui/react-icons';
+import * as Accordion from "@radix-ui/react-accordion";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import React from "react";
 import "../app/navbar.css";
 import * as Form from "@radix-ui/react-form";
-import * as Tabs from '@radix-ui/react-tabs';
+import * as Tabs from "@radix-ui/react-tabs";
 import Link from "next/link";
 import { FaApple } from "react-icons/fa";
 import { FaMobileAlt } from "react-icons/fa";
@@ -23,19 +23,14 @@ import { FaWindows } from "react-icons/fa";
 import { RiMacbookLine } from "react-icons/ri";
 import { ImTablet } from "react-icons/im";
 import { FaBars } from "react-icons/fa6";
-import classNames from 'classnames';
+import classNames from "classnames";
 import Sidebar from "./Sidebar";
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-40 w-full bg-anovanavbar flex justify-between items-center py-3 px-4">
+    <div className="sticky top-0 z-50 w-full bg-anovanavbar flex justify-between items-center py-3 px-4">
       <div className="navbar_group1 flex gap-4">
         <div className="navbar_group1_subgroup_1 flex items-center gap-2">
           <FaBars className="text-white" />
-        
-
- 
-
-
 
           <Image
             className="navbar-logo"
@@ -59,7 +54,8 @@ const Navbar = () => {
             <div className="relative">
               <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <button type="submit">
-                  <svg className="text-gray-500"
+                  <svg
+                    className="text-gray-500"
                     width="20"
                     height="20"
                     viewBox="0 0 15 15"
@@ -97,11 +93,24 @@ const Navbar = () => {
               </Button>
             </DropdownMenu.Trigger>
             <DropdownMenu.Content variant="soft" color="indigo">
-              <DropdownMenu.Item shortcut="⌘ E"><FaMobileAlt />Andriod</DropdownMenu.Item>
-              <DropdownMenu.Item shortcut="⌘ D"><FaApple /> iPhone</DropdownMenu.Item>
-              <DropdownMenu.Item shortcut="⌘ E"><ImTablet />iPad</DropdownMenu.Item>
-              <DropdownMenu.Item shortcut="⌘ D"><FaWindows className="mr-2" /> Windows</DropdownMenu.Item>
-              <DropdownMenu.Item shortcut="⌘ D"><RiMacbookLine />Mac</DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ E">
+                <FaMobileAlt />
+                Andriod
+              </DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ D">
+                <FaApple /> iPhone
+              </DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ E">
+                <ImTablet />
+                iPad
+              </DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ D">
+                <FaWindows className="mr-2" /> Windows
+              </DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ D">
+                <RiMacbookLine />
+                Mac
+              </DropdownMenu.Item>
             </DropdownMenu.Content>
           </DropdownMenu.Root>
         </div>
@@ -118,194 +127,198 @@ const Navbar = () => {
                 {/* <Dialog.Description className="DialogDescription">
           Make changes to your profile here. Click save when you're done.
         </Dialog.Description> */}
-        <Tabs.Root className="TabsRoot" defaultValue="tab1">
-    <Tabs.List className="TabsList" aria-label="Manage your account">
-      <Tabs.Trigger className="TabsTrigger font-semibold text-sm" value="tab1">
-        Sign In
-      </Tabs.Trigger>
-      <Tabs.Trigger className="TabsTrigger font-semibold text-sm" value="tab2">
-        Sign Up
-      </Tabs.Trigger>
-    </Tabs.List>
-    <Tabs.Content className="TabsContent" value="tab1">
-   
-    <Form.Root>
-                  <Form.Field className="FormField" name="email">
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "baseline",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <Form.Label className="FormLabel text-anovatext1">
-                        Email
-                      </Form.Label>
-                      <Form.Message
-                        className="FormMessage"
-                        match="valueMissing"
-                      >
-                        Please enter your email
-                      </Form.Message>
-                      <Form.Message
-                        className="FormMessage"
-                        match="typeMismatch"
-                      >
-                        Please provide a valid email
-                      </Form.Message>
-                    </div>
-                    <Form.Control asChild>
-                      <input className="Input" type="email" required />
-                    </Form.Control>
-                  </Form.Field>
-
-                  <Form.Field className="FormField" name="password">
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "baseline",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <Form.Label className="FormLabel text-anovatext1">
-                        password
-                      </Form.Label>
-                      <Form.Message
-                        className="FormMessage"
-                        match="valueMissing"
-                      >
-                        Please enter your password
-                      </Form.Message>
-                      <Form.Message
-                        className="FormMessage"
-                        match="typeMismatch"
-                      >
-                        Please provide a valid password
-                      </Form.Message>
-                    </div>
-                    <Form.Control asChild>
-                      <input className="Input" type="password" required />
-                    </Form.Control>
-                  </Form.Field>
-                  <Link className="text-sm" href="/">
-                    Forgot your password?
-                  </Link>
-                  <Form.Submit asChild>
-                    <button
-                      className="w-full text-center bg-green-600 text-white hover:bg-green-800 px-2 py-2 rounded"
-                      style={{ marginTop: 10 }}
+                <Tabs.Root className="TabsRoot" defaultValue="tab1">
+                  <Tabs.List
+                    className="TabsList"
+                    aria-label="Manage your account"
+                  >
+                    <Tabs.Trigger
+                      className="TabsTrigger font-semibold text-sm"
+                      value="tab1"
                     >
                       Sign In
-                    </button>
-                  </Form.Submit>
-                </Form.Root>
-    </Tabs.Content>
-    <Tabs.Content className="TabsContent" value="tab2">
-
-    <Form.Root>
-                  <Form.Field className="FormField" name="text">
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "baseline",
-                        justifyContent: "space-between",
-                      }}
+                    </Tabs.Trigger>
+                    <Tabs.Trigger
+                      className="TabsTrigger font-semibold text-sm"
+                      value="tab2"
                     >
-                      <Form.Label className="FormLabel text-anovatext1">
-                        Fullname
-                      </Form.Label>
-                      <Form.Message
-                        className="FormMessage"
-                        match="valueMissing"
-                      >
-                        Please enter your fullname
-                      </Form.Message>
-                      <Form.Message
-                        className="FormMessage"
-                        match="typeMismatch"
-                      >
-                        Please provide a valid fullname
-                      </Form.Message>
-                    </div>
-                    <Form.Control asChild>
-                      <input className="Input" type="text" required />
-                    </Form.Control>
-                  </Form.Field>
+                      Sign Up
+                    </Tabs.Trigger>
+                  </Tabs.List>
+                  <Tabs.Content className="TabsContent" value="tab1">
+                    <Form.Root>
+                      <Form.Field className="FormField" name="email">
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "baseline",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <Form.Label className="FormLabel text-anovatext1">
+                            Email
+                          </Form.Label>
+                          <Form.Message
+                            className="FormMessage"
+                            match="valueMissing"
+                          >
+                            Please enter your email
+                          </Form.Message>
+                          <Form.Message
+                            className="FormMessage"
+                            match="typeMismatch"
+                          >
+                            Please provide a valid email
+                          </Form.Message>
+                        </div>
+                        <Form.Control asChild>
+                          <input className="Input" type="email" required />
+                        </Form.Control>
+                      </Form.Field>
 
-                  <Form.Field className="FormField" name="text">
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "baseline",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <Form.Label className="FormLabel text-anovatext1">
-                        Email
-                      </Form.Label>
-                      <Form.Message
-                        className="FormMessage"
-                        match="valueMissing"
-                      >
-                        Please enter your email
-                      </Form.Message>
-                      <Form.Message
-                        className="FormMessage"
-                        match="typeMismatch"
-                      >
-                        Please provide a valid email
-                      </Form.Message>
-                    </div>
-                    <Form.Control asChild>
-                      <input className="Input" type="email" required />
-                    </Form.Control>
-                  </Form.Field>
+                      <Form.Field className="FormField" name="password">
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "baseline",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <Form.Label className="FormLabel text-anovatext1">
+                            password
+                          </Form.Label>
+                          <Form.Message
+                            className="FormMessage"
+                            match="valueMissing"
+                          >
+                            Please enter your password
+                          </Form.Message>
+                          <Form.Message
+                            className="FormMessage"
+                            match="typeMismatch"
+                          >
+                            Please provide a valid password
+                          </Form.Message>
+                        </div>
+                        <Form.Control asChild>
+                          <input className="Input" type="password" required />
+                        </Form.Control>
+                      </Form.Field>
+                      <Link className="text-sm" href="/">
+                        Forgot your password?
+                      </Link>
+                      <Form.Submit asChild>
+                        <button
+                          className="w-full text-center bg-green-600 text-white hover:bg-green-800 px-2 py-2 rounded"
+                          style={{ marginTop: 10 }}
+                        >
+                          Sign In
+                        </button>
+                      </Form.Submit>
+                    </Form.Root>
+                  </Tabs.Content>
+                  <Tabs.Content className="TabsContent" value="tab2">
+                    <Form.Root>
+                      <Form.Field className="FormField" name="text">
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "baseline",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <Form.Label className="FormLabel text-anovatext1">
+                            Fullname
+                          </Form.Label>
+                          <Form.Message
+                            className="FormMessage"
+                            match="valueMissing"
+                          >
+                            Please enter your fullname
+                          </Form.Message>
+                          <Form.Message
+                            className="FormMessage"
+                            match="typeMismatch"
+                          >
+                            Please provide a valid fullname
+                          </Form.Message>
+                        </div>
+                        <Form.Control asChild>
+                          <input className="Input" type="text" required />
+                        </Form.Control>
+                      </Form.Field>
 
-                  <Form.Field className="FormField" name="password">
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "baseline",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <Form.Label className="FormLabel text-anovatext1">
-                        password
-                      </Form.Label>
-                      <Form.Message
-                        className="FormMessage"
-                        match="valueMissing"
-                      >
-                        Please enter your password
-                      </Form.Message>
-                      <Form.Message
-                        className="FormMessage"
-                        match="typeMismatch"
-                      >
-                        Please provide a valid password
-                      </Form.Message>
-                    </div>
-                    <Form.Control asChild>
-                      <input className="Input" type="password" required />
-                    </Form.Control>
-                  </Form.Field>
-                  <Link className="text-sm" href="/">
-                    Forgot your password?
-                  </Link>
-                  <Form.Submit asChild>
-                    <button
-                      className="w-full text-center bg-green-600 text-white hover:bg-green-800 px-2 py-2 rounded"
-                      style={{ marginTop: 10 }}
-                    >
-                      Register
-                    </button>
-                  </Form.Submit>
-                </Form.Root>
-    </Tabs.Content>
-  </Tabs.Root>
+                      <Form.Field className="FormField" name="text">
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "baseline",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <Form.Label className="FormLabel text-anovatext1">
+                            Email
+                          </Form.Label>
+                          <Form.Message
+                            className="FormMessage"
+                            match="valueMissing"
+                          >
+                            Please enter your email
+                          </Form.Message>
+                          <Form.Message
+                            className="FormMessage"
+                            match="typeMismatch"
+                          >
+                            Please provide a valid email
+                          </Form.Message>
+                        </div>
+                        <Form.Control asChild>
+                          <input className="Input" type="email" required />
+                        </Form.Control>
+                      </Form.Field>
 
-
-
+                      <Form.Field className="FormField" name="password">
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "baseline",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <Form.Label className="FormLabel text-anovatext1">
+                            password
+                          </Form.Label>
+                          <Form.Message
+                            className="FormMessage"
+                            match="valueMissing"
+                          >
+                            Please enter your password
+                          </Form.Message>
+                          <Form.Message
+                            className="FormMessage"
+                            match="typeMismatch"
+                          >
+                            Please provide a valid password
+                          </Form.Message>
+                        </div>
+                        <Form.Control asChild>
+                          <input className="Input" type="password" required />
+                        </Form.Control>
+                      </Form.Field>
+                      <Link className="text-sm" href="/">
+                        Forgot your password?
+                      </Link>
+                      <Form.Submit asChild>
+                        <button
+                          className="w-full text-center bg-green-600 text-white hover:bg-green-800 px-2 py-2 rounded"
+                          style={{ marginTop: 10 }}
+                        >
+                          Register
+                        </button>
+                      </Form.Submit>
+                    </Form.Root>
+                  </Tabs.Content>
+                </Tabs.Root>
 
                 <div className="other-sign-method mt-5 mb-4">
                   <div className="other-sign-method-title">
@@ -358,8 +371,6 @@ const Navbar = () => {
             </Dialog.Portal>
           </Dialog.Root>
         </div>
-
-        
       </div>
     </div>
   );

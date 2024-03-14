@@ -32,6 +32,14 @@
     overflow: hidden;
     text-overflow: ellipsis; 
   }
+
+  @media only screen and (max-width:420px){
+    .product_main_group3_innergroup2_item_content_title p{
+      width: 80px; 
+   
+    }
+  }
+
   .group3_premium{
     position: relative;
     display: flex;
@@ -89,7 +97,7 @@
   .play-button-icon{
     display: none;
     position: absolute;
-    z-index: 100;
+    z-index: 3;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -108,7 +116,7 @@
     background-color: rgba(255, 255, 255, 0.25);
     filter: blur(6px);
     -webkit-filter: blur(6px);
-    z-index: 99;
+    z-index: 2;
     
   }
 
