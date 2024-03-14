@@ -80,3 +80,40 @@
     opacity: .75;
     z-index:1;
   }
+
+  .product_main_group3_innergroup2_item_image{
+    position: relative;
+    cursor: pointer;
+  }
+
+  .play-button-icon{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1fbe73;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 0.6rem;
+    
+
+
+    
+  }
+  .product_main_group3_innergroup2_item_image:hover img{
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .2s;
+    background-color: rgba(255, 255, 255, 0.25);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    z-index: 99;
+    
+  }
+
+  .product_main_group3_innergroup2_item_image:hover .play-button-icon{
+      display: block;
+   
+  
+  }
