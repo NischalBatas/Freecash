@@ -1,12 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import '@radix-ui/themes/styles.css';
-import { Theme, ThemePanel } from '@radix-ui/themes';
+import "@radix-ui/themes/styles.css";
+import { Theme } from "@radix-ui/themes";
 
-import '../../static/js/resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css'
-import '../../static/js/resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css'
-import '../../static/css/owlCarousel.css'
+import "../../static/js/resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css";
+import "../../static/js/resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css";
+import "../../static/css/owlCarousel.css";
 
 import Script from "next/script";
 
@@ -18,21 +18,22 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
- 
-
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Theme accentColor="grass" grayColor="sand" radius="large" scaling="95%">
-              <Navbar/>
-        {children}
-     
+        <Theme
+          accentColor="grass"
+          grayColor="sand"
+          radius="large"
+          scaling="95%"
+        >
+          <Navbar />
+          {children}
         </Theme>
         <Script src="../../static/js/resources/jquery.js"></Script>
         <Script src="../../static/js/owlCarousel.js"></Script>
         <Script src="../../static/js/resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></Script>
-        
-        </body>
+      </body>
     </html>
   );
 }
