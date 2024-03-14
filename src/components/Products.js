@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import { GoDotFill } from "react-icons/go";
@@ -15,6 +16,7 @@ import { BsJoystick } from "react-icons/bs";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { IoPlay } from "react-icons/io5";
 import Link from "next/link";
+import TableData from "./TableData";
 const Products = () => {
   return (
     <div className="product_main my-1 grid">
@@ -140,9 +142,9 @@ const Products = () => {
               alt="image"
               src="/images/brain.jpg"
             />
-             <div className="play-button-icon text-white ">
+            <div className="play-button-icon text-white ">
               <IoPlay />
-              </div>
+            </div>
           </div>
           <div className="product_main_group2_item_content flex flex-col md:flex-row md:justify-between md:items-center px-2  py-1">
             <div className="product_main_group2_item_content_group1">
@@ -163,7 +165,7 @@ const Products = () => {
         </div>
 
         <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4 pb-2">
-        <div className="product_main_group3_innergroup2_item_image">
+          <div className="product_main_group3_innergroup2_item_image">
             <Image
               className=""
               width={350}
@@ -171,9 +173,9 @@ const Products = () => {
               alt="image"
               src="/images/brain.jpg"
             />
-             <div className="play-button-icon text-white ">
+            <div className="play-button-icon text-white ">
               <IoPlay />
-              </div>
+            </div>
           </div>
           <div className="product_main_group2_item_content flex flex-col md:flex-row md:justify-between md:items-center px-2  py-1">
             <div className="product_main_group2_item_content_group1">
@@ -216,18 +218,20 @@ const Products = () => {
 
         <div className="product_main_group3_sub2 z-30 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-              <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -245,18 +249,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -274,18 +280,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -303,18 +311,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -332,18 +342,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -361,18 +373,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -390,18 +404,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs1 Surveys</p>
@@ -419,18 +435,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -467,18 +485,20 @@ const Products = () => {
 
         <div className="product_main_group3_sub2 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -496,18 +516,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -525,18 +547,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -554,18 +578,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -583,18 +609,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -612,18 +640,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -641,18 +671,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -670,18 +702,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -718,18 +752,20 @@ const Products = () => {
 
         <div className="product_main_group3_sub2 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -747,18 +783,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -776,18 +814,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -805,18 +845,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -834,18 +876,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -863,18 +907,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -892,18 +938,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -921,18 +969,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -969,18 +1019,20 @@ const Products = () => {
 
         <div className="product_main_group3_sub2 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -998,18 +1050,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1027,18 +1081,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1056,18 +1112,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1085,18 +1143,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1114,18 +1174,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1143,18 +1205,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1172,18 +1236,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1220,18 +1286,20 @@ const Products = () => {
 
         <div className="product_main_group3_sub2 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1249,18 +1317,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1278,18 +1348,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1307,18 +1379,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1336,18 +1410,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1365,18 +1441,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1394,18 +1472,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1423,18 +1503,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1471,18 +1553,21 @@ const Products = () => {
 
         <div className="product_main_group3_sub2 owl-carousel owl-theme flex gap-5">
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+  
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1500,18 +1585,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1529,18 +1616,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1558,18 +1647,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1587,18 +1678,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1616,18 +1709,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1645,18 +1740,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1674,18 +1771,20 @@ const Products = () => {
           </div>
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href='/products'><div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-              <Image
-                className="rounded-lg"
-                width={150}
-                height={150}
-                alt="image"
-                src="/images/dots.jpg"
-              />
-                 <div className="play-button-icon text-white ">
-              <IoPlay />
+            <Link href="/products">
+              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
+                <Image
+                  className="rounded-lg"
+                  width={150}
+                  height={150}
+                  alt="image"
+                  src="/images/dots.jpg"
+                />
+                <div className="play-button-icon text-white ">
+                  <IoPlay />
+                </div>
               </div>
-            </div></Link>
+            </Link>
             <div className="product_main_group3_innergroup2_item_content mt-3">
               <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
                 <p>BitLabs Surveys</p>
@@ -1704,7 +1803,8 @@ const Products = () => {
         </div>
       </div>
 
-      <div className="product_main_group4"></div>
+      <TableData/>
+   
     </div>
   );
 };
