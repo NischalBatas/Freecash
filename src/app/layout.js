@@ -31,7 +31,8 @@ export default function RootLayout({ children }) {
         <Script src="../../static/js/resources/jquery.js"></Script>
         <Script src="../../static/js/owlCarousel.js"></Script>
         <Script src="../../static/js/resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></Script>
-        
+        <Script src="../../static/js/sidebar.js"></Script>
+
         </body>
     </html>
   );

@@ -12,7 +12,7 @@ import { FiSend } from "react-icons/fi";
 
 const Chat = () => {
   return (
-    <div className="fixed chat-main bg-anova3 h-screen py-2" style={{width:'342px'}}>
+    <div className="fixed z-40 chat-main bg-anova3 h-screen py-2" style={{width:'342px'}}>
       <div className="chat-main-group1">
         <div className="chat-main-group1-userstatus px-2 flex gap-2 items-center text-anovatext1">
         <FaUsers /> 

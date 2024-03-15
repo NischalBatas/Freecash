@@ -25,12 +25,39 @@ import { ImTablet } from "react-icons/im";
 import { FaBars } from "react-icons/fa6";
 import classNames from "classnames";
 import Sidebar from "./Sidebar";
-const Navbar = () => {
+
+const Navbar = ( ) => {
+
+  const onClickSidebar = () => {
+    const dom1 = document.getElementsByClassName("list-menu");
+    const dom2 = document.getElementsByClassName("sidebar-main-justify-center");
+    for (let i = 0; i < dom1.length; i++) {
+      
+      if (dom1[i].style.display === "none") {
+        dom1[i].style.display = "block";
+        for (let j = 0; j < dom2.length; j++) {
+          dom2[j].style.justifyContent = "start";
+        }
+      } else {
+        for (let j = 0; j < dom2.length; j++) {
+          dom2[j].style.justifyContent = "center";
+        }
+        dom1[i].style.display = "none";
+        
+      }
+
+      
+    }
+  };
+
   return (
     <div className="sticky top-0 z-50 w-full bg-anovanavbar flex justify-between items-center py-3 px-4">
       <div className="navbar_group1 flex gap-4">
         <div className="navbar_group1_subgroup_1 flex items-center gap-2">
-          <FaBars className="text-white" />
+          <FaBars
+            onClick={onClickSidebar}
+            className="sidebar-toggle mr-2 cursor-pointer text-white"
+          />
 
           <Image
             className="navbar-logo"
