@@ -31,3 +31,14 @@ body{
     margin: 0 auto;
   }
 }
+
+hr{
+  border-color: #253243;
+}
+
+.secret-keys-text{
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
+}

@@ -23,16 +23,16 @@ import { FaWindows } from "react-icons/fa";
 import { RiMacbookLine } from "react-icons/ri";
 import { ImTablet } from "react-icons/im";
 import { FaBars } from "react-icons/fa6";
-import classNames from "classnames";
 import Sidebar from "./Sidebar";
-
-const Navbar = ( ) => {
-
+import Wallet from "./navbar/Wallet";
+import ProfileAvatar from "./navbar/ProfileAvatar";
+import { FaBell } from "react-icons/fa6";
+import { BiSolidJoystick } from "react-icons/bi";
+const Navbar = () => {
   const onClickSidebar = () => {
     const dom1 = document.getElementsByClassName("list-menu");
     const dom2 = document.getElementsByClassName("sidebar-main-justify-center");
     for (let i = 0; i < dom1.length; i++) {
-      
       if (dom1[i].style.display === "none") {
         dom1[i].style.display = "block";
         for (let j = 0; j < dom2.length; j++) {
@@ -43,10 +43,7 @@ const Navbar = ( ) => {
           dom2[j].style.justifyContent = "center";
         }
         dom1[i].style.display = "none";
-        
       }
-
-      
     }
   };
 
@@ -59,16 +56,18 @@ const Navbar = ( ) => {
             className="sidebar-toggle mr-2 cursor-pointer text-white"
           />
 
-          <Image
-            className="navbar-logo"
-            width={20}
-            height={20}
-            alt="logo"
-            src="/images/logo.png"
-          />
-          <span className="ml-2 text-green-600 font-bold hidden md:block">
-            FreeCash
-          </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              className="navbar-logo"
+              width={20}
+              height={20}
+              alt="logo"
+              src="/images/logo.png"
+            />
+            <span className="ml-2 text-green-600 font-bold hidden md:block">
+              FreeCash
+            </span>
+          </Link>
         </div>
         <div className="navbar_group1_subgroup_2 flex items-center ">
           <form className="max-w-md mx-auto">
@@ -142,6 +141,17 @@ const Navbar = ( ) => {
           </DropdownMenu.Root>
         </div>
 
+        <Wallet />
+        <ProfileAvatar />
+
+        <div className="flex items-center gap-5 text-xl mx-3">
+          <Link className="text-anovatext1" href="/">
+            <FaBell />
+          </Link>
+          <Link className="text-anovatext1" href="/">
+            <BiSolidJoystick />
+          </Link>
+        </div>
         <div className="signin-group">
           <Dialog.Root>
             <Dialog.Trigger asChild>
