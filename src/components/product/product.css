@@ -19,9 +19,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
-    max-width: 760px;
-    max-height: 85vh;
-    padding: 25px;
+    max-width: 510px;
+    /* max-height: 85vh; */
+    /* padding: 25px; */
     color: #93acd3;
     border-radius: 8px;
     animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
@@ -49,13 +49,14 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    padding: 0 15px;
-    font-size: 15px;
+    padding: 0 10px;
+    font-size: 14px;
     line-height: 1;
     font-weight: 500;
     height: 35px;
     background-color: rgb(34, 174, 34);
     color: #fff;
+    width: 100%;
   }
  
   .Buttons.green:hover {
@@ -88,6 +89,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    background-color: #0d131c;
   }
   .IconButtons:hover {
     /* background-color: var(--violet-4); */
@@ -117,5 +119,4 @@
     position: relative;
     padding: 1rem;
     background-color: #151e2c;
-  
   }
