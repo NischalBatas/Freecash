@@ -22,11 +22,11 @@ const Sidebar = () => {
       <div className="fixed overflow-y-auto sidebar-main bg-anovanavbar max-w-56 h-screen p-1 md:p-2">
         <div className="sidebar-main-list-group-1">
             <ul>
-                <li><Link href='#' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 mb-2 p-2 hover:bg-anova6"><FaHome /><span className="list-menu">Home</span></Link></li>
-                <li><Link href='#' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 my-2 p-2 hover:bg-anova6"><LuContainer /><span className="list-menu">Product</span></Link></li>
+                <li><Link href='/' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 mb-2 p-2 hover:bg-anova6"><FaHome /><span className="list-menu">Home</span></Link></li>
+                <li><Link href='/products' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 my-2 p-2 hover:bg-anova6"><LuContainer /><span className="list-menu">Product</span></Link></li>
                 <li><Link href='#' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 my-2 p-2 hover:bg-anova6"><BiSolidCategory /><span className="list-menu">Category</span></Link></li>
                 <li><Link href='#' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 my-2 p-2 hover:bg-anova6"><MdMedicalInformation /><span className="list-menu">About</span></Link></li>
-                <li><Link href='#' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 my-2 p-2 hover:bg-anova6"><MdContactPage /><span className="list-menu">Contact</span></Link></li>
+                <li><Link href='/profile' className="flex rounded-lg sidebar-main-justify-center items-center text-anovatext1 text-base gap-2 my-2 p-2 hover:bg-anova6"><MdContactPage /><span className="list-menu">Profile</span></Link></li>
             </ul>
         </div>
     <hr className="px-2 border-anovatext2"/>
