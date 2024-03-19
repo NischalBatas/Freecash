@@ -42,3 +42,10 @@ hr{
   overflow: hidden;
   text-wrap: nowrap;
 }
+
+
+@media only screen and (max-width:650px){
+  .table-cell-time,.table-cell-users{
+    display: none;
+  }
+}

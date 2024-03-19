@@ -29,8 +29,8 @@ const TableData = () => {
         <Table.Header>
           <Table.Row className="tablerows">
             <Table.ColumnHeaderCell>Name</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>Users</Table.ColumnHeaderCell>
-            <Table.ColumnHeaderCell>Time</Table.ColumnHeaderCell>
+            <Table.ColumnHeaderCell className='table-cell-time'>Users</Table.ColumnHeaderCell>
+            <Table.ColumnHeaderCell className='table-cell-users'>Time</Table.ColumnHeaderCell>
             <Table.ColumnHeaderCell>Reward</Table.ColumnHeaderCell>
           </Table.Row>
         </Table.Header>
@@ -47,7 +47,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -57,7 +57,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -75,7 +75,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -85,7 +85,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -103,7 +103,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -113,7 +113,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -131,7 +131,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -141,7 +141,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -160,7 +160,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -170,7 +170,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -189,7 +189,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -199,7 +199,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -219,7 +219,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -229,7 +229,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -247,7 +247,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -257,7 +257,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -275,7 +275,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -285,7 +285,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -304,7 +304,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -314,7 +314,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -350,7 +350,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -360,7 +360,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -378,7 +378,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -388,7 +388,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -406,7 +406,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -416,7 +416,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -434,7 +434,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -444,7 +444,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -463,7 +463,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -473,7 +473,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -492,7 +492,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -502,7 +502,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -522,7 +522,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -532,7 +532,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -550,7 +550,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -560,7 +560,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -578,7 +578,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -588,7 +588,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
@@ -607,7 +607,7 @@ const TableData = () => {
               />
               Danilo Sousa
             </Table.RowHeaderCell>
-            <Table.Cell>
+            <Table.Cell className="table-cell-users">
               <Avatar
                 className="mr-2"
                 size="2"
@@ -617,7 +617,7 @@ const TableData = () => {
               />
               danilo@example.com
             </Table.Cell>
-            <Table.Cell>a minute ago</Table.Cell>
+            <Table.Cell className='table-cell-time'>a minute ago</Table.Cell>
             <Table.Cell className="flex items-center text-white font-bold">
               <TbCoinFilled className="mr-1 text-yellow-500" />
               500
