@@ -29,6 +29,7 @@ import ProfileAvatar from "./navbar/ProfileAvatar";
 import { FaBell } from "react-icons/fa6";
 import { BiSolidJoystick } from "react-icons/bi";
 const Navbar = () => {
+  
   const onClickSidebar = () => {
     const dom1 = document.getElementsByClassName("list-menu");
     const dom2 = document.getElementsByClassName("sidebar-main-justify-center");

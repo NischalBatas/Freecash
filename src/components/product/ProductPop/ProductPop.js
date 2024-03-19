@@ -37,7 +37,7 @@ const ProductPop = () => {
 
           <div style={{  }}>
             <Dialog.Close asChild>
-              <button className="Buttons green">Start Now</button>
+              <button className="Buttons green mb-2">Start Now</button>
             </Dialog.Close>
           </div>
           <Dialog.Close asChild>
