@@ -31,16 +31,16 @@ export default function RootLayout({ children }) {
           scaling="95%"
         >
           <Navbar />
-          <div className="grid grid-cols-4  text-white">
+          <div className="grid grid-cols-7 justify-between gap-2 text-white">
             <div className="col-span-1 z-40 lg:block">
               <Sidebar />
             </div>
 
-            <div className="col-span-4 ml-10 md:ml-12 lg:ml-0 lg:col-span-3  xl:col-span-2 px-2 ">
+            <div className="col-span-7 ml-10 md:ml-12 lg:ml-0 lg:col-span-6 xl:col-span-4 px-2 m-auto">
               {children}
             </div>
 
-            <div className="col-span-1 hidden xl:grid justify-items-end">
+            <div className="col-span-2 hidden xl:grid justify-items-end">
               <Chat />
             </div>
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 import "../../../static/css/main.css";
 const page = () => {
   return (
-    <div className='m-auto text-white'>
+    <div className='text-white'>
         <Products/>
     </div>
   )
