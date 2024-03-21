@@ -1,137 +1,19 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { GoDotFill } from "react-icons/go";
 import { SiBitcoinsv } from "react-icons/si";
-import { FaEthereum } from "react-icons/fa";
-import { SiTether } from "react-icons/si";
-import { SiRipple } from "react-icons/si";
-import { SiBinance } from "react-icons/si";
-import { TbCurrencySolana } from "react-icons/tb";
+
 import { IoIosStar } from "react-icons/io";
 import "../../static/css/main.css";
 import { IoIosRocket } from "react-icons/io";
 import { BiSolidJoystick } from "react-icons/bi";
 import { BsJoystick } from "react-icons/bs";
-import { AiFillPlayCircle } from "react-icons/ai";
 import { IoPlay } from "react-icons/io5";
 import Link from "next/link";
 import TableData from "./TableData";
 const Products = () => {
   return (
     <div className="product_main my-1 grid">
-      <div className="product_main_group1 mb-2 overflow-hidden flex justify-start gap-2">
-        <div className="product_main_group1_sub1 px-3 bg-anovanavbar flex justify-center items-center rounded">
-          <span className=" ">
-            <GoDotFill className="text-green-500" />
-          </span>
-        </div>
-
-        <div className="product_main_group1_sub2 flex gap-2 owl-carousel owl-theme">
-          <div className="product_main_group1_sub2_item py-2 px-3 gap-2 flex justify-between item-center gap-1 bg-anovanavbar flex justify-center items-center rounded">
-            <div className="product_main_group1_sub2_image">
-              <SiBitcoinsv className="w-6 h-6 text-orange-400" />
-            </div>
-            <div className="product_main_group1_sub2_content text-xs">
-              <div className="product_main_group1_sub2_content_title font-medium">
-                <p>Bitcoin</p>
-              </div>
-              <div className="product_main_group1_sub2_content_time text-anovatext1">
-                <p>2m ago</p>
-              </div>
-            </div>
-            <div className="product_main_group1_sub2_number px-2 py-1 font-medium rounded bg-anova6 text-xs ml-3">
-              <span>$640</span>
-            </div>
-          </div>
-
-          <div className="product_main_group1_sub2_item py-2 px-3 gap-2 flex justify-between item-center gap-1 bg-anovanavbar flex justify-center items-center rounded">
-            <div className="product_main_group1_sub2_image">
-              <FaEthereum className="w-6 h-6 text-blue-400" />
-            </div>
-            <div className="product_main_group1_sub2_content text-xs">
-              <div className="product_main_group1_sub2_content_title font-medium">
-                <p>Ethereum</p>
-              </div>
-              <div className="product_main_group1_sub2_content_time text-anovatext1">
-                <p>2m ago</p>
-              </div>
-            </div>
-            <div className="product_main_group1_sub2_number px-2 py-1 font-medium rounded bg-anova6 text-xs ml-3">
-              <span>$640</span>
-            </div>
-          </div>
-
-          <div className="product_main_group1_sub2_item py-2 px-3 gap-2 flex justify-between item-center gap-1 bg-anovanavbar flex justify-center items-center rounded">
-            <div className="product_main_group1_sub2_image">
-              <SiTether className="w-6 h-6 text-green-500" />
-            </div>
-            <div className="product_main_group1_sub2_content text-xs">
-              <div className="product_main_group1_sub2_content_title font-medium">
-                <p>Tether</p>
-              </div>
-              <div className="product_main_group1_sub2_content_time text-anovatext1">
-                <p>2m ago</p>
-              </div>
-            </div>
-            <div className="product_main_group1_sub2_number px-2 py-1 font-medium rounded bg-anova6 text-xs ml-3">
-              <span>$640</span>
-            </div>
-          </div>
-
-          <div className="product_main_group1_sub2_item py-2 px-3 gap-2 flex justify-between item-center gap-1 bg-anovanavbar flex justify-center items-center rounded">
-            <div className="product_main_group1_sub2_image">
-              <SiRipple className="w-6 h-6 text-gray-500" />
-            </div>
-            <div className="product_main_group1_sub2_content text-xs">
-              <div className="product_main_group1_sub2_content_title font-medium">
-                <p>Ripple</p>
-              </div>
-              <div className="product_main_group1_sub2_content_time text-anovatext1">
-                <p>2m ago</p>
-              </div>
-            </div>
-            <div className="product_main_group1_sub2_number px-2 py-1 font-medium rounded bg-anova6 text-xs ml-3">
-              <span>$640</span>
-            </div>
-          </div>
-
-          <div className="product_main_group1_sub2_item py-2 px-3 gap-2 flex justify-between item-center gap-1 bg-anovanavbar flex justify-center items-center rounded">
-            <div className="product_main_group1_sub2_image">
-              <SiBinance className="w-6 h-6 text-blue-800" />
-            </div>
-            <div className="product_main_group1_sub2_content text-xs">
-              <div className="product_main_group1_sub2_content_title font-medium">
-                <p>Binance</p>
-              </div>
-              <div className="product_main_group1_sub2_content_time text-anovatext1">
-                <p>2m ago</p>
-              </div>
-            </div>
-            <div className="product_main_group1_sub2_number px-2 py-1 font-medium rounded bg-anova6 text-xs ml-3">
-              <span>$640</span>
-            </div>
-          </div>
-
-          <div className="product_main_group1_sub2_item py-2 px-3 gap-2 flex justify-between item-center gap-1 bg-anovanavbar flex justify-center items-center rounded">
-            <div className="product_main_group1_sub2_image">
-              <TbCurrencySolana className="w-6 h-6 text-red-600" />
-            </div>
-            <div className="product_main_group1_sub2_content text-xs">
-              <div className="product_main_group1_sub2_content_title font-medium">
-                <p>Solana</p>
-              </div>
-              <div className="product_main_group1_sub2_content_time text-anovatext1">
-                <p>2m ago</p>
-              </div>
-            </div>
-            <div className="product_main_group1_sub2_number px-2 py-1 font-medium rounded bg-anova6 text-xs ml-3">
-              <span>$640</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="product_main_group2 my-4 overflow-hidden flex justify-start gap-5">
         <div className="product_main_group2_item  flex flex-col gap-2 w-40 md:w-72 rounded-lg bg-anova4 pb-2">
           <div className="product_main_group3_innergroup2_item_image">
@@ -248,36 +130,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
-            <Link href="/products">
-              <div className="product_main_group3_innergroup2_item_image flex flex-col  items-center ">
-                <Image
-                  className="rounded-lg"
-                  width={150}
-                  height={150}
-                  alt="image"
-                  src="/images/dots.jpg"
-                />
-                <div className="play-button-icon text-white ">
-                  <IoPlay />
-                </div>
-              </div>
-            </Link>
-            <div className="product_main_group3_innergroup2_item_content mt-3">
-              <div className="product_main_group3_innergroup2_item_content_title font-semibold text-xs md:text-sm">
-                <p>BitLabs1 Surveys</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_category font-medium text-xs text-anovatext1">
-                <p>CryptoCurrency</p>
-              </div>
-              <div className="product_main_group3_innergroup2_item_content_price mt-2 text-xs md:text-sm">
-                <span className="flex flex-nowrap items-center gap-1 font-semibold">
-                  <SiBitcoinsv className="w-4 h-4 text-yellow-400" />
-                  8,800
-                </span>
-              </div>
-            </div>
-          </div>
+ 
 
           <div className="product_main_group3_sub2_item bg-anova4 w-28 md:w-32 p-3 flex flex-col rounded-lg">
             <Link href="/products">
@@ -1562,7 +1415,7 @@ const Products = () => {
                   alt="image"
                   src="/images/dots.jpg"
                 />
-  
+
                 <div className="play-button-icon text-white ">
                   <IoPlay />
                 </div>
@@ -1803,8 +1656,7 @@ const Products = () => {
         </div>
       </div>
 
-      <TableData/>
-   
+      <TableData />
     </div>
   );
 };
