@@ -8,17 +8,41 @@ import Logo from "@/components/Logo";
 import AnimatedSearchBar from "../AnimatedSearchBar";
 import DeviceSelectDropDown from "../DeviceSelectDropDown";
 import SignSignUpModal from "../SignSignUpModal";
+import Wallet from "./Wallet";
+import ProfileAvatar from "./ProfileAvatar";
 
 const Navbar = () => {
+
+  const onClickSidebar = () => {
+    const dom1 = document.getElementsByClassName("list-menu");
+    const dom2 = document.getElementsByClassName("sidebar-main-justify-center");
+    for (let i = 0; i < dom1.length; i++) {
+      if (dom1[i].style.display === "none") {
+        dom1[i].style.display = "block";
+        for (let j = 0; j < dom2.length; j++) {
+          dom2[j].style.justifyContent = "start";
+        }
+      } else {
+        for (let j = 0; j < dom2.length; j++) {
+          dom2[j].style.justifyContent = "center";
+        }
+        dom1[i].style.display = "none";
+      }
+    }
+  };
+
   return (
     <div className="sticky top-0 z-50 w-full bg-anovanavbar flex justify-between items-center py-3 px-4">
       <div className="navbar_group1 flex gap-4">
-        <Logo />
+        <Logo onClickSidebar={onClickSidebar}/>
         <AnimatedSearchBar />
       </div>
 
       <div className="navbar_group2 flex gap-2">
+        <Wallet />
+        <ProfileAvatar />
         <DeviceSelectDropDown />
+
 
         <div className="signin-group">
           <Dialog.Root>
