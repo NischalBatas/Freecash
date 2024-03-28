@@ -10,6 +10,9 @@ import DeviceSelectDropDown from "../DeviceSelectDropDown";
 import SignSignUpModal from "../SignSignUpModal";
 import Wallet from "./Wallet";
 import ProfileAvatar from "./ProfileAvatar";
+import Link from "next/link";
+import { FaBell } from "react-icons/fa6";
+import { BiSolidJoystick } from "react-icons/bi";
 
 const Navbar = () => {
 
@@ -43,7 +46,14 @@ const Navbar = () => {
         <ProfileAvatar />
         <DeviceSelectDropDown />
 
-
+        <div className="flex items-center gap-5 text-xl mx-3">
+          <Link className="text-anovatext1" href="/">
+            <FaBell />
+          </Link>
+          <Link className="text-anovatext1" href="/">
+            <BiSolidJoystick />
+          </Link>
+        </div>
         <div className="signin-group">
           <Dialog.Root>
             <Dialog.Trigger asChild>
